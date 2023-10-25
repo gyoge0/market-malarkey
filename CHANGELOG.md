@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/gyoge0/market-malarkey/compare/v1.0.0...v1.0.1) (2023-10-25)
+
+
+### Bug Fixes
+
+* set github pages to make use of proper base path in prod ([1021ef6](https://github.com/gyoge0/market-malarkey/commit/1021ef6660472d662ffbb1ea5312ece92fe7f459))
+
 ## 1.0.0 (2023-10-25)
 
 
