@@ -1,5 +1,9 @@
+<script lang="ts">
+  import Header from "$lib/components/Header.svelte";
+</script>
+
 <main>
-  <h1>Hello World</h1>
+  <Header />
 </main>
 
 <style>
@@ -8,11 +12,10 @@
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-  }
 
-  h1 {
-    font-family: sans-serif;
+    padding: 2rem;
+    background: #181818;
   }
 </style>
