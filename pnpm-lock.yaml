@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@fontsource-variable/playfair-display':
+    specifier: ^5.0.18
+    version: 5.0.18
+
 devDependencies:
   '@commitlint/cli':
     specifier: ^17.8.1
@@ -579,6 +584,10 @@ packages:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
     dev: true
+
+  /@fontsource-variable/playfair-display@5.0.18:
+    resolution: {integrity: sha512-q4K/bihmrk4tn1v5zgznr9NYcTE6TVgtEkg8iiEude880/iVI+up+nDGXLV3Qt9hJYFAja5xOTCZFB5RhX4d6g==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.13:
     resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
