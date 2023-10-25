@@ -1,7 +1,9 @@
 <div id="outer">
   <h1>Market Malarkey</h1>
-
-  <div id="group">
+  <div class="group">
+    <span>Turns left: <strong>31</strong></span>
+  </div>
+  <div class="group">
     <span>Your Revenue: <strong>320</strong></span>
     <span>|</span>
     <span>Opponent Revenue: <strong>570</strong></span>
@@ -17,10 +19,7 @@
     background-color: mediumpurple;
 
     width: 100%;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0.25rem 1.5rem;
     border-radius: 3rem;
   }
 
@@ -31,7 +30,7 @@
     flex-grow: 0;
   }
 
-  #group {
+  .group {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -41,6 +40,7 @@
     gap: 1rem;
     font-family: "Verdana", sans-serif;
   }
+
   strong {
     font-weight: bold;
     font-size: 1.25em;
