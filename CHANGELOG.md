@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/gyoge0/market-malarkey/compare/v1.0.1...v1.0.2) (2023-10-26)
+
+
+### Bug Fixes
+
+* change supply and demand graphs ([d566237](https://github.com/gyoge0/market-malarkey/commit/d5662378225ebdd62457a9bfa6388ec640188837))
+
 ## [1.0.1](https://github.com/gyoge0/market-malarkey/compare/v1.0.0...v1.0.1) (2023-10-25)
 
 
